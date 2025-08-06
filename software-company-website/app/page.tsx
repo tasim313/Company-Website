@@ -19,7 +19,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <HeroSection slides={currentHeroSlides} />
         {/* Client Logos Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-background pt-0">
           <div className="container px-4 md:px-6 text-center">
             <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-muted-foreground mb-8">
               Trusted by Leading Companies Worldwide

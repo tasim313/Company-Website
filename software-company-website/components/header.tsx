@@ -5,12 +5,12 @@ import { MenuIcon, LogIn, LogOut } from "lucide-react" // Added LogIn, LogOut ic
 import { isAuthenticated, logoutAction } from "@/actions/auth-actions" // Import auth functions
 
 export default function Header() {
-  const loggedIn = isAuthenticated() // Check authentication status
+  const loggedIn = isAuthenticated() // Check authentication statusit 
 
   return (
     <header className="flex h-20 w-full shrink-0 items-center px-4 md:px-6 border-b bg-background">
       <Link href="/" className="mr-6 flex items-center" prefetch={false}>
-        <span className="text-xl font-bold">SoftwareCo</span>
+        <span className="text-xl font-bold">ScriptPark</span>
       </Link>
       <nav className="hidden md:flex gap-6 lg:gap-8 ml-auto">
         <Link href="/about" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>

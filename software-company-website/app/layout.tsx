@@ -7,9 +7,9 @@ import Header from "@/components/header" // Import the new Header component
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SoftwareCo - Modern Software Solutions",
+  title: "ScriptPark - Modern Software Solutions",
   description: "Crafting cutting-edge software solutions for your business.",
-    generator: 'v0.dev'
+    generator: 'scriptpark'
 }
 
 export default function RootLayout({
