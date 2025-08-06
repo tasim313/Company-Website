@@ -125,7 +125,7 @@ const initialHeroSlides: HeroSlide[] = [
     cta1Href: "/products/saas-platform",
     cta2Text: "Our Case Studies",
     cta2Href: "/products",
-    image: "/placeholder.svg?height=800&width=1600",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fakaunting.com%2Fopen-source-accounting-software&psig=AOvVaw3Cvb2_TsxSzJ3w7IPQrRY1&ust=1754537620441000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjRvJCg9Y4DFQAAAAAdAAAAABAE?height=800&width=1600",
   },
   {
     id: "slide-4",
